@@ -57,7 +57,7 @@ const Nav = props => {
               {siteConfig('NOBELIUM_NAV_NOTION_ICON', null, CONFIG) ? (
                 <LazyImage
                   src={siteInfo?.icon}
-                  width={24}
+                  width={1200}
                   height={24}
                   alt={siteConfig('AUTHOR')}
                 />
